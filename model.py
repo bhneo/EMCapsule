@@ -20,9 +20,9 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 import tensorflow as tf
-from capsule_em import em_model
-from capsule_em import layers
-from capsule_em import simple_model
+import em_model
+import layers
+import simple_model
 FLAGS = tf.app.flags.FLAGS
 
 

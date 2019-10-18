@@ -24,8 +24,8 @@ from __future__ import division
 from __future__ import print_function
 import math
 import tensorflow as tf
-from capsule_em import layers
-from capsule_em import utils
+import layers
+import utils
 
 
 def update_conv_routing(wx, input_activation, activation_biases, sigma_biases,

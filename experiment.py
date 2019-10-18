@@ -23,11 +23,9 @@ import time
 import numpy as np
 
 import tensorflow as tf
-from capsule_em import model as f_model
-from capsule_em.mnist \
-  import mnist_record
-from capsule_em.norb \
-  import norb_record
+import model as f_model
+from mnist import mnist_record
+from norb import norb_record
 from tensorflow.python import debug as tf_debug
 
 FLAGS = tf.app.flags.FLAGS
